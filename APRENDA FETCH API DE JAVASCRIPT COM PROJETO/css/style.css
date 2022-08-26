@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    padding: 25px;
+    background-color: #999;
+    color: #FFF;
+}
+
+p, h3, a, h2{
+    margin: 25px;
+}
+
+.hide{
+    display: none;
+}
+
+a,input[type="submit"]
+{
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+a:hover, input[type="submit"]{
+    background-color: red;
+}
+
+form{
+    width: 20%;
+    background-color: burlywood;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5em;
+}
+
+form label{
+    font-weight: bold;
+    margin-bottom: .5em;
+}
+
+form input,form textarea{
+    padding: 5px;
+}

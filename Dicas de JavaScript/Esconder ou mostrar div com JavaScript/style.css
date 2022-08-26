@@ -1,0 +1,15 @@
+#container{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+#container-b{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.hide{
+    display: none;
+}
